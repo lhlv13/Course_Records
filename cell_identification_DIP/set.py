@@ -87,7 +87,7 @@ def run(img_name, path = './all_img/'):
     draw_nuc_list = []
     
     ### 找細胞輪廓
-    bar_name = ['color',"Thes_min","Thes_maxx","kernel","morph_mode","erod_times","dilat_times","min","max"]
+    bar_name = ['color',"Thes_min","Thes_max","kernel","morph_mode","erod_times","dilat_times","min","max"]
     bar_min = [0,0,0,0,0,0,0,0,0]
     bar_max = [5,255,255,9,1,10,10,30000,100000]
     while True:
@@ -240,7 +240,7 @@ def main():
     create_files()
     
     path = './test_img/'      ### 改成圖片放置的檔案路徑
-    img_name = "001 -1.jpg"   ### 要使用的照片
+    img_name = "043.jpg"   ### 要使用的照片
     run(img_name,path)
        
 if __name__=="__main__":
