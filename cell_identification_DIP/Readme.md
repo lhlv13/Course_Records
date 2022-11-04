@@ -1,3 +1,6 @@
+<img src="./readmeImg/result1.png">
+<img src="./readmeImg/result2.png">
+
 
 ## 使用步驟
 * <b>執行 set.py</b>
@@ -6,19 +9,19 @@ $ python set.py
 ```
 
 * <b>抓取細胞輪廓</b>
-藉由調整滑桿數值來抓取細胞輪廓。
-(如需要抓取下一組細胞輪廓，按 <b>Enter 鍵</b>)
-抓取完畢後，請按 <b>ESC鍵</b>
+藉由調整滑桿數值來抓取細胞輪廓。<br>
+(如需要抓取下一組細胞輪廓，按 <b>Enter 鍵</b>)<br>
+抓取完畢後，請按 <b>ESC鍵</b>。<br>
 ![set1](./readmeImg/set1.png)
 
 * <b>抓取細胞核</b>
-藉由調整滑桿數值來抓取細胞核。
-(如需要抓取下一組細胞輪廓，按 <b>Enter 鍵</b>)
-抓取完畢後，請按 <b>ESC鍵</b>
+藉由調整滑桿數值來抓取細胞核。<br>
+(如需要抓取下一組細胞輪廓，按 <b>Enter 鍵</b>)<br>
+抓取完畢後，請按 <b>ESC鍵</b>。<br>
 ![set2](./readmeImg/set2.png)
 * 儲存結果
-會自動計算<b>細胞核質比</b>然後儲存在 `./result/` 資料夾內。
-將上述操作的參數儲存起來，可以藉由 `show.py` 推論到其他影像上。
+會自動計算<b>細胞核質比</b>然後儲存在 `./result/` 資料夾內。<br>
+將上述操作的參數儲存起來，可以藉由 `show.py` 推論到其他影像上。<br>
 ![set3](./readmeImg/set3.png)
 
 ## 滑桿功能 :
